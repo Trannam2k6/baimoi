@@ -1,0 +1,166 @@
+/* Tổng thể */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+/* Header trên cùng */
+.topbar {
+  background-color: #c8913b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+  font-size: 14px;
+}
+
+/* Thanh menu */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  color: #c8913b;
+  border-bottom: 2px solid #c8913b;
+  padding-bottom: 4px;
+}
+
+/* Phần giới thiệu */
+.intro {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.intro h2 {
+  color: #7a5b2a;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.services div {
+  text-align: center;
+}
+
+/* Phần sản phẩm */
+.products {
+  background: #4e4e4e;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .price {
+  color: #c8913b;
+  font-weight: bold;
+}
+
+.card button {
+  background: #c8913b;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Bảng giá */
+.pricing {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.price-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.price-card {
+  background: white;
+  border: 1px solid #ddd;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.price-card h3 {
+  background: #c8913b;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.price-card button {
+  background: #c8913b;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.copyright {
+  text-align: center;
+  background: #c8913b;
+  margin-top: 20px;
+  padding: 10px;
+}
